@@ -1,0 +1,22 @@
+{
+  "name": "cpress_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cypress": "^13.14.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mysql": "github:mysqljs/mysql",
+    "xlsx": "^0.18.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/Tests"
+  }
+}
