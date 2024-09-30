@@ -12,10 +12,17 @@
     "axios": "^1.7.7",
     "cypress": "^13.14.2",
     "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.7.0",
     "mysql": "github:mysqljs/mysql",
     "xlsx": "^0.18.5"
   },
   "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+     " filePrefix":"",
+     " fileSuffix": ".cucumber"
+      },
     "nonGlobalStepDefinitions": false,
     "step_definitions": "cypress/e2e/Tests"
   }
