@@ -14,7 +14,7 @@ Feature: Login into the site with valid data
           | xxxxxx@gmail.com | xxxxx@1234     |
 
 
-
+@testcasekey=KAN-1
 Scenario:export data from excel to database
 And export data from excel to sql
 And should write data to an Excel file
